@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="socBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050e1f"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" rx="12" fill="url(#socBg)"/>
+  <rect width="600" height="360" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- SOC Dashboard Header -->
+  <rect x="25" y="20" width="550" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="41" r="5" fill="#ef4444"/>
+  <text x="60" y="45" fill="#f8fafc" font-family="'Fira Code', monospace" font-size="11" font-weight="bold">SIEM_MONITOR // THREAT DETECTION &amp; INCIDENT TRIAGE</text>
+  <text x="460" y="45" fill="#ef4444" font-family="'Fira Code', monospace" font-size="10">ALERTS: 3 HIGH</text>
+
+  <!-- Left Chart: Threat Telemetry Bar Chart -->
+  <rect x="25" y="80" width="310" height="150" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1"/>
+  <text x="40" y="105" fill="#00f5ff" font-family="'Fira Code', monospace" font-size="10">EVENT INGESTION RATE (EPS)</text>
+  
+  <!-- Bars -->
+  <rect x="45" y="170" width="18" height="40" rx="2" fill="url(#barGrad)"/>
+  <rect x="75" y="150" width="18" height="60" rx="2" fill="url(#barGrad)"/>
+  <rect x="105" y="130" width="18" height="80" rx="2" fill="url(#barGrad)"/>
+  <rect x="135" y="160" width="18" height="50" rx="2" fill="url(#barGrad)"/>
+  <rect x="165" y="120" width="18" height="90" rx="2" fill="#ef4444"/>
+  <rect x="195" y="140" width="18" height="70" rx="2" fill="url(#barGrad)"/>
+  <rect x="225" y="165" width="18" height="45" rx="2" fill="url(#barGrad)"/>
+  <rect x="255" y="135" width="18" height="75" rx="2" fill="url(#barGrad)"/>
+  <rect x="285" y="155" width="18" height="55" rx="2" fill="url(#barGrad)"/>
+  <line x1="40" y1="210" x2="310" y2="210" stroke="#334155" stroke-width="1"/>
+
+  <!-- Right Chart: MITRE ATT&CK Matrix Radar -->
+  <rect x="350" y="80" width="225" height="150" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1"/>
+  <text x="365" y="105" fill="#10b981" font-family="'Fira Code', monospace" font-size="10">MITRE TACTIC CORRELATION</text>
+  <circle cx="462" cy="165" r="45" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="462" cy="165" r="30" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <polygon points="462,130 495,150 480,195 440,190 435,150" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="1.5"/>
+
+  <!-- Bottom Log Stream Terminal -->
+  <rect x="25" y="245" width="550" height="95" rx="6" fill="#030712" stroke="#1e293b" stroke-width="1"/>
+  <text x="40" y="268" fill="#10b981" font-family="'Fira Code', monospace" font-size="9.5">[04:12:01 UTC] [INFO] Snort IDS rule #2001219 matched TCP SYN probe from 192.168.1.45</text>
+  <text x="40" y="288" fill="#ef4444" font-family="'Fira Code', monospace" font-size="9.5">[04:12:05 UTC] [ALERT] Multiple failed SSH authentications - brute-force heuristic triggered</text>
+  <text x="40" y="308" fill="#00f5ff" font-family="'Fira Code', monospace" font-size="9.5">[04:12:08 UTC] [SOC_ACTION] Host isolated automatically via firewall containment rule</text>
+  <text x="40" y="328" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="9.5">[04:12:12 UTC] [STATUS] Triage ticket created (SEV-2) // PCAP saved to /var/log/pcap/</text>
+</svg>

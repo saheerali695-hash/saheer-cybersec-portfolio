@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhamad Saheer Ali M.N | Cybersecurity Learner & Aspiring Security Analyst</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Official portfolio of Muhamad Saheer Ali M.N, BCA student (2026) at Al-Ameen College / MG University, Kochi, Kerala. Aspiring Security Analyst specializing in Web Application Security, OWASP Top 10, Vulnerability Assessment, and Networking.">
+  <meta name="keywords" content="Muhamad Saheer Ali M.N, Cybersecurity, Security Analyst, BCA 2026, Al-Ameen College, MG University, Kochi, Kerala, OWASP Top 10, SQL Injection, XSS, CSRF, Vulnerability Assessment, Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, CLLMSE, CEH">
+  <meta name="author" content="Muhamad Saheer Ali M.N">
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Muhamad Saheer Ali M.N | Cybersecurity & Security Analyst Portfolio">
+  <meta property="og:description" content="BCA student (2026) at Al-Ameen College / MG University, Kochi, Kerala. Cybersecurity Learner & Aspiring Security Analyst.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6.5.1 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Cyber Lighting & Grid Overlays -->
+  <canvas id="cyber-canvas" class="cyber-canvas"></canvas>
+  <div class="cyber-grid-overlay"></div>
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <!-- Telemetry Diagnostic Top Bar -->
+  <header class="telemetry-bar">
+    <div class="telemetry-container">
+      <div class="telemetry-left">
+        <span class="telemetry-item">
+          <i class="fa-solid fa-location-dot text-cyan"></i>
+          <span>KOCHI, KERALA [IN]</span>
+        </span>
+        <span class="telemetry-divider">|</span>
+        <span class="telemetry-item">
+          <i class="fa-solid fa-phone text-emerald"></i>
+          <a href="tel:6282381145" class="text-white hover-cyan">+91 6282381145</a>
+        </span>
+        <span class="telemetry-divider">|</span>
+        <span class="telemetry-item">
+          <span class="pulse-dot"></span>
+          <span>ASPIRING SECURITY ANALYST // BCA '26</span>
+        </span>
+      </div>
+      <div class="telemetry-right">
+        <span class="telemetry-item" id="telemetry-clock">
+          <i class="fa-regular fa-clock"></i> UTC 00:00:00
+        </span>
+        <span class="telemetry-divider">|</span>
+        <button id="audio-toggle-btn" class="telemetry-btn" title="Toggle audio sound effects">
+          <i class="fa-solid fa-volume-xmark"></i> AUDIO: OFF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Primary Navigation Bar -->
+  <nav class="main-nav" id="main-nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" title="Muhamad Saheer Ali M.N - Cybersecurity Portfolio">
+        <span class="brand-bracket">[</span>
+        <span class="brand-name">SAHEER</span>
+        <span class="brand-bracket">]</span>
+        <span class="brand-role">// CYBERSEC</span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link"><span class="nav-num">01.</span>ABOUT</a></li>
+        <li><a href="#skills" class="nav-link"><span class="nav-num">02.</span>SKILLS</a></li>
+        <li><a href="#tools" class="nav-link"><span class="nav-num">03.</span>TOOLS</a></li>
+        <li><a href="#projects" class="nav-link"><span class="nav-num">04.</span>PROJECTS</a></li>
+        <li><a href="#education" class="nav-link"><span class="nav-num">05.</span>EDUCATION</a></li>
+        <li><a href="#certifications" class="nav-link"><span class="nav-num">06.</span>CERTIFICATIONS</a></li>
+        <li><a href="#contact" class="nav-link"><span class="nav-num">07.</span>CONTACT</a></li>
+      </ul>
+
+      <!-- Nav Action CTAs -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-sm btn-outline-cyan download-resume-trigger" title="View Resume Information">
+          <i class="fa-solid fa-file-arrow-down"></i> RESUME
+        </button>
+        <a href="#contact" class="btn btn-sm btn-cyan btn-hire" title="Contact Saheer">
+          <i class="fa-solid fa-bolt"></i> GET IN TOUCH
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       01. HERO / HOME SECTION
+       ======================================================================== -->
+  <section id="hero" class="hero-section">
+    <div class="section-container hero-grid">
+      
+      <!-- Hero Left Column: Narrative & Pitch -->
+      <div class="hero-content">
+        <div class="hero-status-pill font-mono">
+          <span class="pulse-dot"></span>
+          <span>CYBERSECURITY LEARNER &amp; ASPIRING SECURITY ANALYST</span>
+        </div>
+
+        <h1 class="hero-title">
+          MUHAMAD SAHEER
+          <span class="name-highlight">ALI M.N</span>
+        </h1>
+
+        <div class="hero-role-wrapper font-mono">
+          <span class="hero-role-lbl">role:</span>
+          <span class="hero-role-text">BCA (2026) | Security Analyst Aspirant</span>
+          <span class="t-cursor">_</span>
+        </div>
+
+        <p class="hero-description">
+          BCA student at Al-Ameen College (MG University), graduating in 2026, focused on practical cybersecurity and application security. Hands-on experience in vulnerability assessment, OWASP Top 10 web security, network protocol analysis, and ethical hacking tools. Certified LLM Security Expert (CLLMSE) and actively pursuing CEH.
+        </p>
+
+        <!-- Quick Telemetry Badges -->
+        <div class="hero-badges-row">
+          <span class="hero-badge badge-bca">
+            <i class="fa-solid fa-graduation-cap"></i> BCA (2026) // AL-AMEEN
+          </span>
+          <span class="hero-badge badge-soc">
+            <i class="fa-solid fa-shield-halved"></i> VULNERABILITY ASSESSMENT
+          </span>
+          <span class="hero-badge badge-projects">
+            <i class="fa-solid fa-diagram-project"></i> 2 WEB &amp; FULL-STACK APPS
+          </span>
+          <span class="hero-badge badge-status">
+            <i class="fa-solid fa-certificate"></i> CLLMSE CERTIFIED // CEH
+          </span>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-lg btn-cyan" title="Contact Saheer">
+            <i class="fa-solid fa-envelope"></i> GET IN TOUCH
+          </a>
+          <a href="#projects" class="btn btn-lg btn-outline-cyan" title="Explore Featured Projects">
+            <i class="fa-solid fa-folder-open"></i> EXPLORE PROJECTS
+          </a>
+          <button type="button" class="btn btn-lg btn-outline-subtle download-resume-trigger" title="View Resume Status">
+            <i class="fa-solid fa-file-lines"></i> RESUME INFO
+          </button>
+        </div>
+      </div>
+
+      <!-- Hero Right Column: Interactive Cyber Terminal Widget -->
+      <div class="hero-terminal-container">
+        <div class="hero-terminal">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="btn-dot dot-red"></span>
+              <span class="btn-dot dot-yellow"></span>
+              <span class="btn-dot dot-green"></span>
+            </div>
+            <div class="terminal-title font-mono">saheer@cybersec-cli: ~ bash</div>
+            <span class="terminal-badge font-mono">LIVE_CLI</span>
+          </div>
+
+          <div class="terminal-body" id="terminal-body">
+            <!-- Simulated Boot Diagnostics -->
+            <div class="t-line">
+              <span class="t-prompt">saheer@sec:~$</span> <span class="t-cmd">whoami</span>
+            </div>
+            <div class="t-res text-cyan font-mono font-bold">
+              Muhamad Saheer Ali M.N [BCA '26 // Cybersecurity Learner]
+            </div>
+
+            <div class="t-line">
+              <span class="t-prompt">saheer@sec:~$</span> <span class="t-cmd">cat profile.json</span>
+            </div>
+            <div class="t-res font-mono" style="font-size: 0.8rem; color: #cbd5e1;">
+              {<br>
+              &nbsp;&nbsp;<span class="t-accent">"name"</span>: <span class="t-green">"Muhamad Saheer Ali M.N"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"education"</span>: <span class="t-green">"BCA (2026) - Al-Ameen College / MG University"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"location"</span>: <span class="t-green">"Kochi, Kerala, India"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"phone"</span>: <span class="t-green">"+91 6282381145"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"email"</span>: <span class="t-green">"saheerali695@gmail.com"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"focus"</span>: <span class="t-green">"Cybersecurity / Aspiring Security Analyst"</span>,<br>
+              &nbsp;&nbsp;<span class="t-accent">"certifications"</span>: [<span class="t-amber">"CLLMSE (Red Team Leaders)"</span>, <span class="t-amber">"Intro to Cybersecurity (Cisco)"</span>],<br>
+              &nbsp;&nbsp;<span class="t-accent">"ongoing"</span>: [<span class="t-accent">"CEH (EC-Council)"</span>, <span class="t-accent">"Professional Cybersecurity Course"</span>]<br>
+              }
+            </div>
+
+            <div class="t-line">
+              <span class="t-prompt">saheer@sec:~$</span> <span class="t-cmd">check-telemetry</span>
+            </div>
+            <div class="t-res font-mono">
+              <span class="t-green"><i class="fa-solid fa-check"></i> Security Tools:</span> Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit<br>
+              <span class="t-green"><i class="fa-solid fa-check"></i> Core Topics:</span> SQLi, XSS, CSRF, OWASP Top 10, Networking<br>
+              <span class="t-accent"><i class="fa-solid fa-shield"></i> Status:</span> Ready for Entry-Level Security Analyst Roles
+            </div>
+
+            <!-- Interactive Line Where Visitor Can Type -->
+            <div class="t-interactive-line">
+              <span class="t-prompt">saheer@sec:~$</span>
+              <input type="text" id="terminal-input" class="t-input" placeholder="type 'help', 'skills', 'tools', 'projects'..." autocomplete="off" spellcheck="false">
+            </div>
+
+            <div class="terminal-hint font-mono">
+              <i class="fa-solid fa-terminal"></i> Interactive CLI. Commands: <code>help</code>, <code>whoami</code>, <code>focus</code>, <code>skills</code>, <code>tools</code>, <code>projects</code>, <code>cert</code>, <code>contact</code>, <code>resume</code>, <code>clear</code>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       02. ABOUT ME SECTION
+       ======================================================================== -->
+  <section id="about" class="section-padding bg-alt-section">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 01. ABOUT ME</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">CYBERSECURITY LEARNER. BCA GRADUATE (2026).</h2>
+        <p class="section-subtitle">Bridging full-stack software development fundamentals with active security testing and vulnerability assessment.</p>
+      </div>
+
+      <div class="about-grid">
+        
+        <!-- Left: Narrative -->
+        <div class="about-narrative">
+          <h3 class="about-headline">
+            Aspiring Security Analyst with a <span class="text-cyan">Software Engineering</span> Background.
+          </h3>
+
+          <p class="about-p">
+            I am <strong class="text-white">Muhamad Saheer Ali M.N</strong>, a Bachelor of Computer Applications (<strong class="text-emerald">BCA</strong>) student at <strong class="text-white">Al-Ameen College</strong>, affiliated with <strong class="text-white">Mahatma Gandhi University (MG University)</strong>, graduating in <strong class="text-cyan">2026</strong>. Based in Kochi, Kerala.
+          </p>
+
+          <!-- Security Philosophy Quote Box -->
+          <div class="about-quote-box">
+            <em>"Security starts with understanding how systems are engineered. By connecting software development fundamentals with offensive testing techniques, we can build and defend truly resilient applications."</em>
+            <span class="quote-author">// Muhamad Saheer Ali M.N - Cybersecurity Mindset</span>
+          </div>
+
+          <p class="about-p">
+            My journey into cybersecurity is driven by hands-on practice. Having designed and developed full-stack applications with Python, Flask, Vue.js, SQLite, Redis, and Celery, I possess a clear understanding of backend architecture, database interactions, and state management. This development background empowers me to evaluate applications from both a builder's and an auditor's perspective.
+          </p>
+
+          <p class="about-p">
+            My security studies and laboratory practice focus on web application security—identifying and analyzing vulnerabilities such as <strong class="text-cyan">SQL Injection, Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF)</strong> according to the <strong class="text-emerald">OWASP Top 10</strong>. I routinely work with core tools including <strong class="text-white">Kali Linux, Nmap, Burp Suite, Wireshark, and Metasploit</strong> to perform vulnerability assessments and network packet analysis.
+          </p>
+
+          <p class="about-p">
+            I recently earned the <strong class="text-cyan">Certified LLM Security Expert (CLLMSE)</strong> certification from Red Team Leaders and completed Cisco's <strong class="text-emerald">Introduction to Cybersecurity</strong>. I am currently pursuing the <strong class="text-amber">Certified Ethical Hacker (CEH)</strong> certification from EC-Council alongside a comprehensive Professional Cybersecurity course.
+          </p>
+        </div>
+
+        <!-- Right: Profile Telemetry & Spec Sheet -->
+        <div class="about-spec-card">
+          <div class="spec-card-header">
+            <span class="spec-title">
+              <i class="fa-solid fa-id-card-clip"></i> ANALYST_SPEC_SHEET.JSON
+            </span>
+            <span class="pulse-dot"></span>
+          </div>
+
+          <div class="spec-card-body">
+            <div class="spec-avatar-row">
+              <div class="spec-avatar-wrapper">
+                <img src="assets/images/avatar-cyber.svg" alt="Muhamad Saheer Ali M.N Cybersecurity Profile Emblem">
+              </div>
+              <div class="spec-avatar-meta">
+                <h4>Muhamad Saheer Ali M.N</h4>
+                <p><i class="fa-solid fa-shield-halved"></i> Aspiring Security Analyst</p>
+              </div>
+            </div>
+
+            <div class="spec-list font-mono">
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-graduation-cap text-cyan"></i> Degree:</span>
+                <span class="spec-val">BCA (Graduating 2026)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-building-columns text-emerald"></i> College:</span>
+                <span class="spec-val">Al-Ameen College</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-university text-purple"></i> University:</span>
+                <span class="spec-val">MG University</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-location-dot text-amber"></i> Location:</span>
+                <span class="spec-val">Kochi, Kerala, India</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-phone text-emerald"></i> Phone:</span>
+                <span class="spec-val"><a href="tel:6282381145" class="text-white hover-cyan">+91 6282381145</a></span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-envelope text-cyan"></i> Email:</span>
+                <span class="spec-val"><a href="mailto:saheerali695@gmail.com" class="text-white hover-cyan">saheerali695@gmail.com</a></span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-crosshairs text-cyan"></i> Focus Area:</span>
+                <span class="spec-val text-cyan">Security Analyst / Web AppSec</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-calendar-check text-emerald"></i> Availability:</span>
+                <span class="spec-val text-emerald">Open for Opportunities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       03. CYBERSECURITY SKILLS SECTION
+       ======================================================================== -->
+  <section id="skills" class="section-padding">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 02. CYBERSECURITY SKILLS &amp; TOPICS</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">SECURITY COMPETENCIES &amp; PRACTICED TOPICS</h2>
+        <p class="section-subtitle">Core security knowledge and testing methodologies practiced in laboratory environments and application projects.</p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Skill Domain 1: Web Application Security (OWASP Top 10) -->
+        <div class="skill-card">
+          <div>
+            <div class="skill-card-top">
+              <div class="skill-icon-box">
+                <i class="fa-solid fa-shield-virus"></i>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Web Application Security &amp; OWASP Top 10</h3>
+                <span class="skill-domain-pill font-mono">DOMAIN: APPSEC_TESTING</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Practical understanding of common web application vulnerabilities outlined in the OWASP Top 10. Practicing identification, proof-of-concept testing, and remediation of flawed client-server interactions.
+            </p>
+          </div>
+          <div class="skill-tags-list">
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> SQL Injection (SQLi)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Cross-Site Scripting (XSS)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Cross-Site Request Forgery (CSRF)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> OWASP Top 10 Mitigation</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Input Sanitization &amp; Prepared Queries</span>
+          </div>
+        </div>
+
+        <!-- Skill Domain 2: Vulnerability Assessment & Security Testing -->
+        <div class="skill-card">
+          <div>
+            <div class="skill-card-top">
+              <div class="skill-icon-box">
+                <i class="fa-solid fa-bug-slash"></i>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Vulnerability Assessment &amp; Lab Testing</h3>
+                <span class="skill-domain-pill font-mono">DOMAIN: SECURITY_AUDITING</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Utilizing security testing tools to discover exposed ports, analyze running services, intercept and inspect HTTP requests, and safely verify known vulnerabilities in virtual laboratory setups.
+            </p>
+          </div>
+          <div class="skill-tags-list">
+            <span class="skill-chip"><i class="fa-solid fa-check text-emerald"></i> Vulnerability Assessment</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-emerald"></i> HTTP Request Proxying (Burp Suite)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-emerald"></i> Target Recon &amp; Port Scanning (Nmap)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-emerald"></i> Controlled Lab Exploitation (Metasploit)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-emerald"></i> Security Testing Workflows</span>
+          </div>
+        </div>
+
+        <!-- Skill Domain 3: Network Fundamentals & Traffic Analysis -->
+        <div class="skill-card">
+          <div>
+            <div class="skill-card-top">
+              <div class="skill-icon-box">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Networking &amp; Packet Forensics</h3>
+                <span class="skill-domain-pill font-mono">DOMAIN: NETWORK_ANALYSIS</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Solid understanding of networking principles, TCP/IP architecture, OSI reference model, protocol behaviors, and inspecting live traffic packets using Wireshark.
+            </p>
+          </div>
+          <div class="skill-tags-list">
+            <span class="skill-chip"><i class="fa-solid fa-check text-purple"></i> TCP/IP Protocol Stack</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-purple"></i> Packet Capture &amp; Inspection (Wireshark)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-purple"></i> DNS, HTTP/S, ARP Protocols</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-purple"></i> Subnetting &amp; IP Addressing</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-purple"></i> Network Defense Basics</span>
+          </div>
+        </div>
+
+        <!-- Skill Domain 4: AI & LLM Security (CLLMSE Certified) -->
+        <div class="skill-card">
+          <div>
+            <div class="skill-card-top">
+              <div class="skill-icon-box">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div>
+                <h3 class="skill-card-title">LLM Security &amp; Emerging AI Risks</h3>
+                <span class="skill-domain-pill font-mono">DOMAIN: AI_RED_TEAMING</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Certified in Large Language Model security fundamentals, evaluating risks unique to generative AI applications including prompt injection, jailbreaking vectors, and defensive guardrail implementation.
+            </p>
+          </div>
+          <div class="skill-tags-list">
+            <span class="skill-chip"><i class="fa-solid fa-check text-amber"></i> Certified LLM Security Expert (CLLMSE)</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-amber"></i> Prompt Injection Analysis</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-amber"></i> AI Application Vulnerabilities</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-amber"></i> Red Teaming Generative Models</span>
+          </div>
+        </div>
+
+        <!-- Skill Domain 5: Software Engineering & Backend Architecture -->
+        <div class="skill-card">
+          <div>
+            <div class="skill-card-top">
+              <div class="skill-icon-box">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Full-Stack Development &amp; Architecture</h3>
+                <span class="skill-domain-pill font-mono">DOMAIN: DEV_FOUNDATIONS</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Building structured web applications gives direct insight into secure coding. Experienced with Python, Flask, Vue.js, relational databases, asynchronous task queues, and REST APIs.
+            </p>
+          </div>
+          <div class="skill-tags-list">
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Python &amp; Flask Backend</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Vue.js Front-End</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> SQLite / SQL Queries</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Redis &amp; Celery Asynchronous Tasks</span>
+            <span class="skill-chip"><i class="fa-solid fa-check text-cyan"></i> Authentication &amp; RBAC</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       04. TOOLS & TECHNOLOGIES SECTION
+       ======================================================================== -->
+  <section id="tools" class="section-padding bg-alt-section">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 03. TOOLS &amp; TECHNOLOGIES</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">PRACTICED SECURITY TOOLS &amp; TECH STACK</h2>
+        <p class="section-subtitle">Verified tools practiced in security labs alongside the modern technologies utilized across development projects.</p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="tools-filter-bar">
+        <button class="tool-filter-btn active" data-filter="all">ALL TECHNOLOGIES</button>
+        <button class="tool-filter-btn" data-filter="security">SECURITY TOOLS</button>
+        <button class="tool-filter-btn" data-filter="dev">DEVELOPMENT &amp; STACK</button>
+        <button class="tool-filter-btn" data-filter="data">DATABASE &amp; CACHE</button>
+      </div>
+
+      <!-- Tools Grid -->
+      <div class="tools-grid">
+        
+        <!-- Tool 1: Kali Linux -->
+        <div class="tool-item" data-category="security">
+          <div class="tool-icon"><i class="fa-brands fa-linux text-cyan"></i></div>
+          <div class="tool-info">
+            <h4>Kali Linux</h4>
+            <p>Security Testing OS &amp; CLI</p>
+          </div>
+        </div>
+
+        <!-- Tool 2: Nmap -->
+        <div class="tool-item" data-category="security">
+          <div class="tool-icon"><i class="fa-solid fa-radar text-emerald"></i></div>
+          <div class="tool-info">
+            <h4>Nmap</h4>
+            <p>Port Scanning &amp; Service Discovery</p>
+          </div>
+        </div>
+
+        <!-- Tool 3: Burp Suite -->
+        <div class="tool-item" data-category="security">
+          <div class="tool-icon"><i class="fa-solid fa-spider text-amber"></i></div>
+          <div class="tool-info">
+            <h4>Burp Suite</h4>
+            <p>Web Proxy &amp; Request Interception</p>
+          </div>
+        </div>
+
+        <!-- Tool 4: Wireshark -->
+        <div class="tool-item" data-category="security">
+          <div class="tool-icon"><i class="fa-solid fa-network-wired text-cyan"></i></div>
+          <div class="tool-info">
+            <h4>Wireshark</h4>
+            <p>Packet Capture &amp; Protocol Analysis</p>
+          </div>
+        </div>
+
+        <!-- Tool 5: Metasploit -->
+        <div class="tool-item" data-category="security">
+          <div class="tool-icon"><i class="fa-solid fa-skull text-red"></i></div>
+          <div class="tool-info">
+            <h4>Metasploit</h4>
+            <p>Vulnerability Verification &amp; Exploitation</p>
+          </div>
+        </div>
+
+        <!-- Tool 6: Python -->
+        <div class="tool-item" data-category="dev">
+          <div class="tool-icon"><i class="fa-brands fa-python text-emerald"></i></div>
+          <div class="tool-info">
+            <h4>Python</h4>
+            <p>Backend Logic &amp; Automation</p>
+          </div>
+        </div>
+
+        <!-- Tool 7: Flask -->
+        <div class="tool-item" data-category="dev">
+          <div class="tool-icon"><i class="fa-solid fa-pepper-hot text-cyan"></i></div>
+          <div class="tool-info">
+            <h4>Flask</h4>
+            <p>Python Web Framework &amp; REST APIs</p>
+          </div>
+        </div>
+
+        <!-- Tool 8: Vue.js -->
+        <div class="tool-item" data-category="dev">
+          <div class="tool-icon"><i class="fa-brands fa-vuejs text-emerald"></i></div>
+          <div class="tool-info">
+            <h4>Vue.js</h4>
+            <p>Reactive Single-Page Front-End</p>
+          </div>
+        </div>
+
+        <!-- Tool 9: SQLite -->
+        <div class="tool-item" data-category="data">
+          <div class="tool-icon"><i class="fa-solid fa-database text-purple"></i></div>
+          <div class="tool-info">
+            <h4>SQLite</h4>
+            <p>Relational Database &amp; SQL Queries</p>
+          </div>
+        </div>
+
+        <!-- Tool 10: Redis -->
+        <div class="tool-item" data-category="data">
+          <div class="tool-icon"><i class="fa-solid fa-server text-amber"></i></div>
+          <div class="tool-info">
+            <h4>Redis</h4>
+            <p>In-Memory Store &amp; Fast Caching</p>
+          </div>
+        </div>
+
+        <!-- Tool 11: Celery -->
+        <div class="tool-item" data-category="dev">
+          <div class="tool-icon"><i class="fa-solid fa-clock-rotate-left text-cyan"></i></div>
+          <div class="tool-info">
+            <h4>Celery</h4>
+            <p>Asynchronous Background Task Queue</p>
+          </div>
+        </div>
+
+        <!-- Tool 12: HTML5, CSS3 & JavaScript -->
+        <div class="tool-item" data-category="dev">
+          <div class="tool-icon"><i class="fa-brands fa-js text-amber"></i></div>
+          <div class="tool-info">
+            <h4>HTML5 / CSS3 / JS</h4>
+            <p>Responsive Web &amp; Client Logic</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       05. PROJECTS SECTION (2 VERIFIED PROJECTS)
+       ======================================================================== -->
+  <section id="projects" class="section-padding">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 04. FEATURED PROJECTS</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">SOFTWARE SYSTEMS &amp; ARCHITECTURES</h2>
+        <p class="section-subtitle">Real-world applications engineered with practical functionality, clean structure, and defensive considerations.</p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- PROJECT 1: Blood Donor Locator -->
+        <div class="project-card featured" data-category="web apps">
+          <div class="project-image-wrapper">
+            <img src="assets/images/project-blood-donor.svg" alt="Blood Donor Locator System Technical Graphic">
+            <span class="project-type-badge font-mono"><i class="fa-solid fa-heart-pulse"></i> WEB APPLICATION</span>
+          </div>
+
+          <div class="project-body">
+            <h3 class="project-title">Blood Donor Locator</h3>
+            <p class="project-description">
+              A responsive healthcare web application designed to connect individuals in urgent need of blood with active, eligible donors. Features intuitive search filtering and direct contact shortcuts to accelerate critical emergency responses.
+            </p>
+
+            <div class="project-security-box">
+              <span class="security-box-title">
+                <i class="fa-solid fa-check text-emerald"></i> KEY IMPLEMENTED FEATURES
+              </span>
+              <p class="security-box-text">
+                • Donor search filtered by blood type and location<br>
+                • Direct contact shortcuts for instant emergency communication<br>
+                • Responsive mobile-first design for rapid smartphone access
+              </p>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive UI</span>
+            </div>
+
+            <div class="project-actions">
+              <div class="project-links">
+                <span class="font-mono text-muted" style="font-size: 0.78rem;">
+                  <i class="fa-solid fa-code-branch text-cyan"></i> Academic Web Project
+                </span>
+              </div>
+              <button class="btn btn-sm btn-ghost view-project-details-btn" data-project="bloodDonor">
+                <i class="fa-solid fa-circle-info"></i> SPEC DETAILS
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: Vehicle Parking App -->
+        <div class="project-card featured" data-category="fullstack apps">
+          <div class="project-image-wrapper">
+            <img src="assets/images/project-parking-app.svg" alt="Vehicle Parking App Graphic">
+            <span class="project-type-badge font-mono"><i class="fa-solid fa-square-parking"></i> FULL-STACK WEB APP</span>
+          </div>
+
+          <div class="project-body">
+            <h3 class="project-title">Vehicle Parking App</h3>
+            <p class="project-description">
+              A comprehensive full-stack parking management system designed to streamline vehicle spot reservations, lot administration, real-time availability tracking, automated email alerts, and analytical report generation.
+            </p>
+
+            <div class="project-security-box">
+              <span class="security-box-title">
+                <i class="fa-solid fa-check text-emerald"></i> KEY IMPLEMENTED FEATURES
+              </span>
+              <p class="security-box-text">
+                • User registration, secure login &amp; session handling<br>
+                • Real-time parking spot reservation &amp; lot management<br>
+                • Administrative dashboard &amp; complete booking history<br>
+                • Automated email notifications &amp; dynamic PDF report exports<br>
+                • Celery asynchronous tasks &amp; Redis in-memory caching
+              </p>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">Celery</span>
+              <span class="tech-tag">HTML/CSS</span>
+            </div>
+
+            <div class="project-actions">
+              <div class="project-links">
+                <span class="font-mono text-muted" style="font-size: 0.78rem;">
+                  <i class="fa-solid fa-layer-group text-emerald"></i> Full-Stack System
+                </span>
+              </div>
+              <button class="btn btn-sm btn-ghost view-project-details-btn" data-project="parkingApp">
+                <i class="fa-solid fa-circle-info"></i> SPEC DETAILS
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       06. EDUCATION SECTION
+       ======================================================================== -->
+  <section id="education" class="section-padding bg-alt-section">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 05. ACADEMIC EDUCATION</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">EDUCATIONAL BACKGROUND &amp; DEGREE</h2>
+        <p class="section-subtitle">Solid undergraduate foundation in Computer Applications, software engineering, and network architecture.</p>
+      </div>
+
+      <div class="education-container">
+        
+        <!-- Left: Main Degree Showcase Card -->
+        <div class="education-card">
+          <div class="education-timeline-badge">
+            <i class="fa-solid fa-calendar-day"></i> <span>CLASS OF 2026 // GRADUATION YEAR</span>
+          </div>
+
+          <h3 class="degree-title">Bachelor of Computer Applications (BCA)</h3>
+          
+          <div class="institution-name">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>Al-Ameen College, Edathala — MG University</span>
+          </div>
+
+          <p class="education-desc">
+            Undergraduate education encompassing core computer science, software engineering workflows, database design, operating system internals, and networking protocols. This academic bedrock provides the essential context required to understand how application logic, memory, and networks operate, serving as an ideal foundation for cybersecurity analysis.
+          </p>
+
+          <h4 class="coursework-title">RELEVANT TECHNICAL COURSEWORK:</h4>
+          <div class="coursework-chips">
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Computer Networks &amp; Protocols</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Operating Systems Architecture</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Database Management Systems (DBMS / SQL)</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Web Technologies &amp; Full-Stack Logic</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Object-Oriented Programming (OOP)</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Python &amp; Software Design</span>
+            <span class="course-chip"><i class="fa-solid fa-check text-cyan"></i> Information Security Fundamentals</span>
+          </div>
+        </div>
+
+        <!-- Right: Pillars of BCA Applied to Security -->
+        <div class="education-pillars-card">
+          
+          <div class="pillar-item">
+            <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="pillar-info">
+              <h4>Network Foundations</h4>
+              <p>Thorough understanding of IP addressing, routing, the TCP/IP stack, and packet exchange, facilitating seamless Wireshark traffic inspection.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon"><i class="fa-solid fa-hard-drive"></i></div>
+            <div class="pillar-info">
+              <h4>Operating System Concepts</h4>
+              <p>Familiarity with process execution, memory management, and file system permissions in Linux and Windows enables effective vulnerability analysis.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="pillar-info">
+              <h4>Database Security &amp; Query Structure</h4>
+              <p>Relational database training directly informs how to prevent and test for SQL Injection (SQLi) vulnerabilities in real-world applications.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       07. CERTIFICATIONS SECTION
+       ======================================================================== -->
+  <section id="certifications" class="section-padding">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 06. CERTIFICATIONS &amp; CREDENTIALS</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">CERTIFIED CREDENTIALS &amp; ONGOING COURSES</h2>
+        <p class="section-subtitle">Verified industry certifications earned alongside active professional training tracks.</p>
+      </div>
+
+      <!-- Group 1: Completed & Verified Certifications -->
+      <div class="cert-group-wrapper" style="margin-bottom: 40px;">
+        <div class="cert-group-title">
+          <i class="fa-solid fa-circle-check text-emerald"></i> COMPLETED &amp; VERIFIED CERTIFICATIONS
+        </div>
+        <div class="cert-grid">
+          
+          <!-- Completed Cert 1: Introduction to Cybersecurity (Cisco) -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <img src="assets/images/cert-badge.svg" alt="Cisco Certification Emblem" class="cert-badge-icon">
+                <span class="cert-status-tag status-completed">
+                  <i class="fa-solid fa-circle-check"></i> <span>COMPLETED</span>
+                </span>
+              </div>
+              <h3 class="cert-name">Introduction to Cybersecurity</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-award text-emerald"></i> Cisco Networking Academy</p>
+            </div>
+            
+            <div class="cert-meta-list">
+              <div class="cert-meta-item">
+                <span>Domain:</span>
+                <span>Cybersecurity Principles &amp; Network Defense</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Completion Date:</span>
+                <span>02 August 2026</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Cert ID:</span>
+                <span class="font-mono" style="font-size: 0.72rem; word-break: break-all;">38b835fd-36e0-4a4a-a60e-c4d7097e4091</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="assets/docs/cisco-introduction-to-cybersecurity.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-cyan" title="Open Cisco Certificate PDF in new tab">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> VIEW CERTIFICATE
+              </a>
+            </div>
+          </div>
+
+          <!-- Completed Cert 2: Certified LLM Security Expert (CLLMSE) -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <img src="assets/images/cert-badge.svg" alt="Red Team Leaders Certification Emblem" class="cert-badge-icon">
+                <span class="cert-status-tag status-completed">
+                  <i class="fa-solid fa-circle-check"></i> <span>COMPLETED</span>
+                </span>
+              </div>
+              <h3 class="cert-name">Certified LLM Security Expert (CLLMSE)</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-award text-cyan"></i> Red Team Leaders</p>
+            </div>
+            
+            <div class="cert-meta-list">
+              <div class="cert-meta-item">
+                <span>Domain:</span>
+                <span>LLM Security &amp; AI Red Teaming</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Issued:</span>
+                <span>29 September 2026</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Verification:</span>
+                <span class="text-emerald">Online Credential Verified</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="assets/docs/cllmse-certified-llm-security-expert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-cyan" title="Open CLLMSE Certificate PDF in new tab">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> VIEW CERTIFICATE
+              </a>
+              <a href="https://courses.redteamleaders.com/exam-completion/5b4ad83357c04c36" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-cyan" title="Verify credential on Red Team Leaders portal">
+                <i class="fa-solid fa-shield-halved"></i> VERIFY CREDENTIAL
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Group 2: Ongoing / In-Progress Tracks -->
+      <div class="cert-group-wrapper">
+        <div class="cert-group-title">
+          <i class="fa-solid fa-spinner fa-spin text-amber"></i> ONGOING &amp; IN-PROGRESS TRACKS
+        </div>
+        <div class="cert-grid">
+          
+          <!-- Ongoing Cert 1: Certified Ethical Hacker (CEH) -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <img src="assets/images/cert-badge.svg" alt="EC-Council CEH Emblem" class="cert-badge-icon">
+                <span class="cert-status-tag status-in-progress">
+                  <i class="fa-solid fa-spinner fa-spin"></i> <span>IN PROGRESS</span>
+                </span>
+              </div>
+              <h3 class="cert-name">Certified Ethical Hacker (CEH)</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-award text-amber"></i> EC-Council</p>
+            </div>
+            
+            <div class="cert-meta-list">
+              <div class="cert-meta-item">
+                <span>Domain:</span>
+                <span>Ethical Hacking &amp; Penetration Testing</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Status:</span>
+                <span class="text-amber">Active Coursework / Preparation</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Target:</span>
+                <span>EC-Council Certification Track</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ongoing Cert 2: Professional Cybersecurity Course -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <img src="assets/images/cert-badge.svg" alt="Professional Cybersecurity Course Emblem" class="cert-badge-icon">
+                <span class="cert-status-tag status-target">
+                  <i class="fa-solid fa-book-open-reader"></i> <span>PURSUING</span>
+                </span>
+              </div>
+              <h3 class="cert-name">Professional Cybersecurity Course</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-award text-purple"></i> Advanced Cybersecurity Training</p>
+            </div>
+            
+            <div class="cert-meta-list">
+              <div class="cert-meta-item">
+                <span>Domain:</span>
+                <span>Security Analysis, Tooling &amp; Assessment</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Status:</span>
+                <span class="text-cyan">Currently Pursuing</span>
+              </div>
+              <div class="cert-meta-item">
+                <span>Focus:</span>
+                <span>Intensive Practical Labs &amp; Methodologies</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Resume Information Banner -->
+      <div class="resume-banner">
+        <div class="resume-banner-text">
+          <h3>Interested in Muhamad Saheer Ali M.N's Resume?</h3>
+          <p>
+            My formal technical CV is currently being updated to incorporate recent certifications in LLM Security and Cisco Cybersecurity. Reach out directly via email or phone to receive the latest version.
+          </p>
+        </div>
+        <div class="resume-banner-actions">
+          <button type="button" class="btn btn-lg btn-cyan download-resume-trigger" title="Request Resume Directly">
+            <i class="fa-solid fa-file-invoice"></i> REQUEST RESUME
+          </button>
+          <a href="tel:6282381145" class="btn btn-lg btn-outline-cyan" title="Call directly">
+            <i class="fa-solid fa-phone"></i> CALL DIRECTLY
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       08. CONTACT & DIRECT CHANNELS SECTION
+       ======================================================================== -->
+  <section id="contact" class="section-padding bg-alt-section">
+    <div class="section-container">
+      
+      <div class="section-header">
+        <div class="section-tag-row">
+          <span class="section-tag">// 07. DIRECT CONTACT</span>
+          <div class="section-accent-line"></div>
+        </div>
+        <h2 class="section-title">INITIATE DIRECT COMMUNICATION</h2>
+        <p class="section-subtitle">Interested in discussing an entry-level Security Analyst role, cybersecurity internship, or project inquiry? Reach out directly.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Verified Channels (Email, Phone, LinkedIn) -->
+        <div class="contact-info-col">
+          
+          <div class="contact-highlight-card">
+            <h3>Let's Connect</h3>
+            <p>
+              I am open for entry-level Security Analyst, Junior Cybersecurity Associate, and related opportunities. Feel free to contact me via phone, email, or LinkedIn.
+            </p>
+
+            <div class="contact-channels-list">
+              
+              <!-- Phone Channel Card (Requested prominent) -->
+              <div class="channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="channel-details">
+                    <h5>Direct Phone Call</h5>
+                    <span>+91 6282381145</span>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-trigger" data-copy="6282381145" title="Copy Phone Number">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                  <a href="tel:6282381145" class="copy-btn" title="Call Now">
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Email Channel Card -->
+              <div class="channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="channel-details">
+                    <h5>Email Address</h5>
+                    <span>saheerali695@gmail.com</span>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-trigger" data-copy="saheerali695@gmail.com" title="Copy Email Address">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                  <a href="mailto:saheerali695@gmail.com?subject=Opportunity%20Inquiry%20-%20Muhamad%20Saheer%20Ali%20M.N" class="copy-btn" title="Open Mail Client">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- LinkedIn Channel Card -->
+              <div class="channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                  <div class="channel-details">
+                    <h5>LinkedIn Profile</h5>
+                    <span>muhamad-saheerali-75882535a</span>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-trigger" data-copy="https://www.linkedin.com/in/muhamad-saheerali-75882535a" title="Copy LinkedIn URL">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                  <a href="https://www.linkedin.com/in/muhamad-saheerali-75882535a" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open LinkedIn Profile">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location Channel Card -->
+              <div class="channel-card">
+                <div class="channel-left">
+                  <div class="channel-icon" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="channel-details">
+                    <h5>Location</h5>
+                    <span>Kochi, Kerala, India</span>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <span class="font-mono text-muted" style="font-size: 0.75rem; padding: 6px;">[IN]</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Direct Quick Contact Message Form -->
+        <div class="contact-form-card">
+          <form id="contact-form" class="contact-form" autocomplete="off">
+            
+            <div class="form-group">
+              <label for="sender-name" class="form-label font-mono">
+                <i class="fa-solid fa-user text-cyan"></i> YOUR FULL NAME *
+              </label>
+              <input type="text" id="sender-name" class="form-control" placeholder="e.g. Hiring Manager / Team Lead" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email" class="form-label font-mono">
+                <i class="fa-solid fa-at text-cyan"></i> YOUR EMAIL ADDRESS *
+              </label>
+              <input type="email" id="sender-email" class="form-control" placeholder="e.g. contact@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-subject" class="form-label font-mono">
+                <i class="fa-solid fa-tag text-cyan"></i> SUBJECT
+              </label>
+              <input type="text" id="sender-subject" class="form-control" placeholder="e.g. Cybersecurity Opportunity" value="Security Analyst Opportunity">
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message" class="form-label font-mono">
+                <i class="fa-solid fa-message text-cyan"></i> MESSAGE PAYLOAD *
+              </label>
+              <textarea id="sender-message" class="form-control" rows="5" placeholder="Share your message, interview invitation, or opportunity details..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-cyan btn-lg" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> TRANSMIT MESSAGE
+            </button>
+
+            <div id="form-status-msg" class="form-status"></div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MODAL 1: PROJECT ARCHITECTURE & SPECIFICATION
+       ======================================================================== -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-project-title" class="modal-title">Project Specification</h3>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom: 16px;">
+          <span id="modal-project-type" class="font-mono text-cyan" style="font-size: 0.82rem; font-weight: 600;"></span>
+        </div>
+        
+        <h4 style="font-family: var(--font-heading); color: var(--text-primary); margin-bottom: 8px;">Architecture Overview:</h4>
+        <p id="modal-project-overview" style="color: var(--text-secondary); margin-bottom: 20px;"></p>
+
+        <h4 style="font-family: var(--font-heading); color: var(--text-primary); margin-bottom: 8px;">Technical Stack:</h4>
+        <p id="modal-project-stack" class="font-mono" style="color: var(--text-muted); font-size: 0.86rem; margin-bottom: 20px; background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px;"></p>
+
+        <h4 style="font-family: var(--font-heading); color: var(--cyber-emerald); margin-bottom: 12px;">Implemented Features &amp; Engineering Details:</h4>
+        <ul id="modal-project-security-list" style="list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;"></ul>
+
+        <div style="border-top: 1px solid var(--border-subtle); padding-top: 16px; display: flex; justify-content: flex-end; gap: 12px;">
+          <button type="button" onclick="document.getElementById('project-modal').classList.remove('active'); document.body.style.overflow='';" class="btn btn-sm btn-outline-subtle">
+            CLOSE SPEC
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: RESUME STATUS / REQUEST DIALOG
+       ======================================================================== -->
+  <div id="resume-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="resume-modal-title" class="modal-title font-mono text-cyan">
+          <i class="fa-solid fa-file-invoice"></i> RESUME STATUS // REQUEST
+        </h3>
+        <button id="resume-modal-close-btn" class="modal-close-btn" aria-label="Close Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="background: rgba(16, 185, 129, 0.1); border-left: 3px solid #10b981; padding: 12px 16px; margin-bottom: 20px; border-radius: 4px;">
+          <span class="font-mono text-emerald" style="font-size: 0.82rem; font-weight: 700;">
+            <i class="fa-solid fa-circle-check"></i> RESUME UPDATING IN PROGRESS
+          </span>
+          <p style="color: #cbd5e1; font-size: 0.9rem; margin-top: 6px;">
+            My official CV is currently being updated to include my latest certifications: <strong>Certified LLM Security Expert (CLLMSE)</strong> and <strong>Introduction to Cybersecurity (Cisco)</strong>.
+          </p>
+        </div>
+
+        <p style="color: var(--text-secondary); margin-bottom: 22px; font-size: 0.94rem; line-height: 1.65;">
+          You can request the most up-to-date resume directly. I will be glad to share it with you immediately via email or WhatsApp.
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;">
+          <a href="mailto:saheerali695@gmail.com?subject=Resume%20Request%20-%20Muhamad%20Saheer%20Ali%20M.N" class="btn btn-cyan" style="justify-content: flex-start; padding: 12px 18px;">
+            <i class="fa-solid fa-envelope"></i> Request via Email (saheerali695@gmail.com)
+          </a>
+          <a href="tel:6282381145" class="btn btn-outline-cyan" style="justify-content: flex-start; padding: 12px 18px;">
+            <i class="fa-solid fa-phone"></i> Call / WhatsApp (+91 6282381145)
+          </a>
+        </div>
+
+        <div style="border-top: 1px solid var(--border-subtle); padding-top: 14px; text-align: right;">
+          <button type="button" onclick="document.getElementById('resume-modal').classList.remove('active'); document.body.style.overflow='';" class="btn btn-sm btn-outline-subtle">
+            CLOSE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       09. FOOTER
+       ======================================================================== -->
+  <footer class="main-footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand font-mono">
+          <span class="text-cyan">[</span>
+          <span class="text-white">MUHAMAD SAHEER ALI M.N</span>
+          <span class="text-cyan">]</span>
+          <span class="brand-role text-emerald">// ASPIRING SECURITY ANALYST</span>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://www.linkedin.com/in/muhamad-saheerali-75882535a" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="tel:6282381145" class="footer-social-link" title="Direct Phone Call">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="mailto:saheerali695@gmail.com" class="footer-social-link" title="Direct Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom font-mono">
+        <div>
+          &copy; 2026 Muhamad Saheer Ali M.N. BCA Graduate (2026) | Al-Ameen College, MG University.
+        </div>
+        <div class="footer-status-pill">
+          <span class="pulse-dot"></span>
+          <span>STATUS: OPEN FOR SECURITY ANALYST ROLES</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Float Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Main JavaScript Engine -->
+  <script src="js/main.js"></script>
+</body>
+</html>
